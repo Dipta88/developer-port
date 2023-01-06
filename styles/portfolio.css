@@ -83,13 +83,15 @@ main{
 }
 .section{
     margin-top: 130px;
+    text-align: center;
+    
 }
 /* about section styles */
 
 .about{
     text-align: center;
 
-  background-color:floralwhite ;
+  background-color:wheat ;
   border-radius: 10px;
   padding: 130px 150px;
 
@@ -97,11 +99,12 @@ main{
 }
 
 .section-title{
-
+    text-align: center;
  font-weight: 7
   00;
   font-size: 35px;
  margin-bottom: 50px;
+ 
 
 
 }
@@ -114,18 +117,19 @@ main{
 }
 
 .about-info-container{
-
+    background-color: floralwhite;
     display: flex;
     justify-content: space-around;
 }
 
 .about .info-title{
-
+    background-color: floralwhite;
     font size: 20px;
     color: #757575;
 }
 
 .about .info-description{
+    background-color: floralwhite;
     font-weight: 700;
     font-size: : 20px;
     color: #474747;
@@ -175,3 +179,72 @@ main{
 
 
 /* resume styles */
+.resume-content{
+  background-color: antiquewhite;
+   display: flex; 
+   gap: 24px;
+   text-align: center;
+}
+
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+.resume-title{
+   
+    font-weight:  700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+    margin border-bottom: 20px;
+
+
+}
+
+.resume-subtitle{
+    color: #757575;
+  font-weight:  600;
+  font-size: 20px;
+  text-align: center;
+}
+
+.resume .description{
+    color: #757575;
+    text-align: center;
+}
+
+.resume-button{
+
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: floralwhite;
+    padding: 130px 200px;
+}
+
+.contact .section-title{
+    text-align: : left;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+
+
+}
+
+.contact a{
+ text-decoration: none;
+
+}
+
